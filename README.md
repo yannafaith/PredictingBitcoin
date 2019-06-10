@@ -12,7 +12,7 @@ historical closing prices from Jan 01 2018 to Feb 19, 2019.
 ### Summary/Ranking of Models
 
 ##### Multivariate LSTM 
-- Training set was 365 days, and the test set was the rest.
+- Training set was 365 days, and the test set was the remaining 48 days.
 - had 3 input vars/features, looked at the data one timestep back, output a predicted closing price. 
 - used 200 epochs.
 - Had a RMSE of 96.75. 
